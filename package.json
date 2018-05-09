@@ -1,6 +1,6 @@
 {
   "name": "rain-from-google-cloud",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "easily list, filter, and pluck from data available to Google Compute Engine global object",
   "main": "index.js",
   "directories": {
@@ -16,14 +16,14 @@
     "disks",
     "vms"
   ],
-    "repository": {
-	"type": "git",
-	"url": "git+https://github.com/drpaulbrewer/rain-from-google-cloud.git"
-    },
-    "bugs": {
-	"url": "https://github.com/drpaulbrewer/rain-from-google-cloud/issues"
-    },
-    "homepage": "https://github.com/drpaulbrewer/rain-from-google-cloud#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/drpaulbrewer/rain-from-google-cloud.git"
+  },
+  "bugs": {
+    "url": "https://github.com/drpaulbrewer/rain-from-google-cloud/issues"
+  },
+  "homepage": "https://github.com/drpaulbrewer/rain-from-google-cloud#readme",
   "author": "drpaulbrewer@eaftc.com",
   "license": "MIT",
   "devDependencies": {
