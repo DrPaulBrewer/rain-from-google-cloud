@@ -1,6 +1,6 @@
 {
   "name": "rain-from-google-cloud",
-  "version": "0.1.1",
+  "version": "0.2.0",
   "description": "easily list, filter, and pluck from data available to Google Compute Engine global object",
   "main": "index.js",
   "directories": {
@@ -31,6 +31,5 @@
     "mocha": "^5.1.1",
     "should": "^13.2.1"
   },
-  "dependencies": {
-  }
+  "dependencies": {}
 }
