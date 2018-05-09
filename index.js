@@ -5,8 +5,6 @@
 
 // jshint node:true, esversion:6 
 
-const arrayUniq = require('array-uniq');
-
 /**
  * returns the rain function
  * rain can access, filter, and pluck from many of the lists accessible from the Google Compute Engine global object.
