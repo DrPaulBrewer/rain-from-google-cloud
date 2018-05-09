@@ -1,0 +1,25 @@
+
+> rain-from-google-cloud@0.1.0 test /home/drpaulbrewer/rain-from-google-cloud
+> mocha --reporter spec --slow 10000 --timeout 80000
+
+
+
+  rain-from-google-cloud
+    ✓ rain should be a function
+    ✓ rain('Addresses') should be a Promise resolving to some Addresses
+    ✓ rain('Disks') should be a Promise resolving to some Disks
+    ✓ rain('Firewalls') should be a Promise resolving to some Firewalls
+    ✓ rain('MachineTypes') should be a Promise resolving to some MachineTypes
+    ✓ rain('Networks') should be a Promise resolving to some Networks
+    ✓ rain('Operations') should be a Promise resolving to some Operations
+    ✓ rain('Regions') should be a Promise resolving to some Regions
+    ✓ rain('Snapshots') should be a Promise resolving to some Snapshots
+    ✓ rain('Subnetworks') should be a Promise resolving to some Subnetworks
+    ✓ rain('VMs') should be a Promise resolving to some VMs
+    ✓ rain('Zones') should be a Promise resolving to some Zones
+    ✓ rain('Blackholes') should throw because Google Cloud doesn't make Blackholes (yet?) 
+    ✓ rain('Zones', { filter: (z)=>(z.name.startsWith('us')), pluck: 'name'}) includes 'us-east1-b', 'us-central1-c'
+
+
+  14 passing (2s)
+
