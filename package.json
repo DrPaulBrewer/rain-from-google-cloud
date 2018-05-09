@@ -1,0 +1,37 @@
+{
+  "name": "rain-from-google-cloud",
+  "version": "0.1.0",
+  "description": "easily list, filter, and pluck from data available to Google Compute Engine global object",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "node_modules/.bin/mocha --reporter spec --slow 10000 --timeout 80000"
+  },
+  "keywords": [
+    "google-compute-engine",
+    "regions",
+    "zones",
+    "disks",
+    "vms"
+  ],
+    "repository": {
+	"type": "git",
+	"url": "git+https://github.com/drpaulbrewer/rain-from-google-cloud.git"
+    },
+    "bugs": {
+	"url": "https://github.com/drpaulbrewer/rain-from-google-cloud/issues"
+    },
+    "homepage": "https://github.com/drpaulbrewer/rain-from-google-cloud#readme",
+  "author": "drpaulbrewer@eaftc.com",
+  "license": "MIT",
+  "devDependencies": {
+    "@google-cloud/compute": "^0.10.0",
+    "mocha": "^5.1.1",
+    "should": "^13.2.1"
+  },
+  "dependencies": {
+    "array-uniq": "^2.0.0"
+  }
+}
